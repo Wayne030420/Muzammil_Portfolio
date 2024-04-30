@@ -1,0 +1,113 @@
+
+.top-menu {
+    /* justify-content: space-between; Spread items along the container */
+}
+
+@media(min-width:1600px) {
+    .top-menu .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* padding: 20px 0px; */
+        /* justify-content: flex-end; Align container content to the right */
+    }
+}
+
+
+.top-bar{
+    border-radius: 64px;
+    border: 2.67px solid rgba(38, 38, 38, 1);
+    background: rgba(27, 27, 27, 0.05);
+}
+.black-btn{
+    background-color: #000;
+    align-items: center;
+    border-radius: 19px;
+    padding:0px 20px;
+}
+.design-section{
+    margin-top: 20px;
+    border-radius: 19px;
+    border: 2.67px solid rgba(38, 38, 38, 1);
+    background: rgba(27, 27, 27, 0.05);
+}
+.design-section img{
+    max-width:209px;
+}
+.bg-btn-red{
+    background: rgba(230, 62, 33, 1);
+}
+.red-btn{
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 15px;
+}
+.add-sign{
+    width: 100%;
+    border-left: 2px solid #fff;
+}
+.black-btn{
+    margin-left: 5px;
+    background: #000;
+}
+.text-red{
+    color: rgba(243, 80, 52, 1);
+}
+.col-border{
+    border: 2.67px solid rgba(38, 38, 38, 1);
+    border-radius: 19px;
+}
+.linear-border{
+border-radius: 19px;
+border: 2.67px solid;
+border: linear-gradient(257.54deg, #E63E21 5.39%, rgba(230, 62, 33, 0) 13.59%);
+}
+.react-col{
+    background: linear-gradient(0deg, rgba(27, 27, 27, 0.05), rgba(27, 27, 27, 0.05)),
+linear-gradient(249.05deg, rgba(230, 62, 33, 0.2) 18.59%, rgba(51, 19, 14, 0) 53.25%);
+}
+.gray-bg{
+    background: rgba(27, 27, 27, 0.05);
+}
+.music-img{
+    width: 350px;
+}
+.mob-img{
+    width: 428px;
+}
+footer a{
+    color: black;
+    font-weight: 500;
+}
+.footer-bg{
+    background: linear-gradient(0deg, rgba(27, 27, 27, 0.05), rgba(27, 27, 27, 0.05)),
+linear-gradient(76.27deg, rgba(230, 62, 33, 0.2) 10.4%, rgba(51, 19, 14, 0) 25.53%);
+
+}
+.dis-grid{
+    display: inline-grid !important;
+}
+form input,form textarea{
+    padding: 20px;
+    border-radius:10px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 20px;
+    color: #000;
+}
+form input::placeholder,form textarea::placeholder{
+    font-size: 20px;
+    font-weight: bold;
+}
+form input:hover{
+    border: 2px solid rgba(243, 80, 52, 1);
+}
+form input:hover::placeholder{
+    color:rgba(243, 80, 52, 1);
+
+}
+@media(min-width:1600px){
+    form{
+        max-width:1616;
+    }
+}
